@@ -155,7 +155,7 @@ class NodeGo:
         if choose in [1, 2]:
             while True:
                 try:
-                    nodes_count = int(input("How Many Nodes Do You Want to Run For Each Account? -> "))
+                    nodes_count = 1000
                     if nodes_count > 0:
                         break
                     else:
