@@ -136,7 +136,7 @@ class NodeGo:
                 print("1. Run With Monosans Proxy")
                 print("2. Run With Private Proxy")
                 print("3. Run Without Proxy")
-                choose = 2
+                choose =2
 
                 if choose in [1, 2, 3]:
                     proxy_type = (
